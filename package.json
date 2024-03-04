@@ -1,0 +1,26 @@
+{
+  "name": "ragemp-simple-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denipolis/ragemp-simple-proxy"
+  },
+  "author": {
+    "name": "Denis Polishchuk",
+    "url": "https://github.com/denipolis"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "start:dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "node-tcp-proxy": "^0.0.28",
+    "udp-proxy": "^1.2.0"
+  }
+}
