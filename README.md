@@ -16,7 +16,7 @@ Simple Proxy server for RAGE:Multiplayer. Creates UDP and TCP proxies for game a
 
 In some cases `RAGE Server` also sends packet with `Real IP of Server` and if it doesn't match client closes the connection, to avoid this we can create recording in `hosts` file on client to connect to real server address but it will `redirect to Proxy IP`.
 
-- Open `C:/Windows/System32/etc/drivers/hosts`
+- Open `C:/Windows/System32/drivers/etc/hosts`
 - Create new recording: `ProxyIP ServerIP` `(example: 127.0.0.1 s1.ragempserver.com)`
 
 ### Proxy Configuration
