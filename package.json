@@ -2,7 +2,7 @@
   "name": "ragemp-simple-proxy",
   "version": "1.0.0",
   "type": "module",
-  "main": "main.js",
+  "main": "src/main.js",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -16,8 +16,8 @@
     "nodemon": "^3.1.0"
   },
   "scripts": {
-    "start": "node main.js",
-    "start:dev": "nodemon main.js"
+    "start": "node src/main.js",
+    "start:dev": "nodemon src/main.js"
   },
   "dependencies": {
     "node-tcp-proxy": "^0.0.28",
